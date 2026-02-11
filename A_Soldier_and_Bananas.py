@@ -4,5 +4,5 @@ sum=0
 for i in range(1,l+1):
     sum += k * i
 
-print(sum - n)
+print(max(0, sum - n))
     
